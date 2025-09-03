@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+
+    int a;
+    cin >> a;
+
+    cout << "Number:" << a;
+
+    return 1;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
